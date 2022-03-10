@@ -4,14 +4,14 @@ import { useCart } from '../../hooks/useCart';
 
 const Header = (props) => {
   const { totalPrice } = useCart();
-  
+
   return (
     <header className="d-flex justify-between align-center p-40">
       <Link to="/">
         <div className="d-flex align-center">
           <img width={40} height={40} src="/img/logo.svg" alt="Logo" />
           <div>
-            <h3 className="text-uppercase">React Shop</h3>
+            <h3 className="text-uppercase">Kermit shop</h3>
             <p>Магазин лучших кроссовок</p>
           </div>
         </div>
