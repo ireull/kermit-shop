@@ -100,6 +100,7 @@ function App() {
         setFavorites((prev) => [...prev, data]);
       }
     } catch (error) {
+      alert('Не получается добавить в избранное');
       console.error(error);
     }
   };

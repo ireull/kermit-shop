@@ -1,5 +1,12 @@
+$blue-background: #e7f6ff;
+$white: #fff;
+$white-gray: #eaeaea;
+$seacrh-area: #f3f3f3;
+$green-button-buy: #9dd558;
+$cart-background: #dfdfdf;
+
 .card {
-  border: 1px solid #f3f3f3;
+  border: 1px solid $seacrh-area;
   padding: 30px;
   width: 210px;
   border-radius: 40px;

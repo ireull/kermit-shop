@@ -1,3 +1,5 @@
+$white: #fff;
+
 .overlay {
   position: absolute;
   left: 0;
@@ -26,7 +28,7 @@
   width: 420px;
   height: 100%;
   right: 0;
-  background: #fff;
+  background: $white;
   box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
   padding: 30px;
   transform: translateX(100%);
